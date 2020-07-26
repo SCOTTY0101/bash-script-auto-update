@@ -22,9 +22,10 @@ CTRL + o  to save file or make your own changes, then press ENTER to save.
 CTRL + x  to exit nano.
 
 chmod a+x update.sh   : Allows system executable permission for the script.
+
 ls -l update.sh   :verify update.sh has executable permission.
+
 sudo ./update.sh    :Enter your sudo password and the script should run without any errors and update linux.
+
 mkdir ~/bin   :Moves the script to your home directory.
-
-
 
