@@ -2,7 +2,7 @@
 
 This is a basic update shell script for bash (Updates pakages, upgrades packages and auto removes old packages).
 
-Must have a basic understanding of working with the linux terminal. Try and follow the guide bellow or Google the problems you don't understand.
+Must have a basic understanding of working with the linux terminal. Try and follow the guide below or Google the problems you don't understand.
 
 
 
