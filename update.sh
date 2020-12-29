@@ -26,9 +26,7 @@ exit_status() {
 
 start() {
             echo
-            echo "********************************************"
-            echo "___--- Upgrading The Operating System.---___"
-            echo "********************************************"
+            echo "***--- Upgrading The Operating System.---***"
             echo
 }
 
