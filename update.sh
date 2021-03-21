@@ -6,7 +6,7 @@ exit_status() {
         then
                 echo
                 echo "-----------------------------------------"
-                echo "*    Command Execting Was Successful    *"
+                echo "*    Command Execting Was Successful.   *"
                 echo "-----------------------------------------"
                 echo
         else
