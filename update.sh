@@ -26,7 +26,7 @@ exit_status() {
 
 start() {
             echo
-            echo "***--- Upgrading The Operating System.---***"
+            echo "***>>> Upgrading The Operating System <<<***"
             echo
 }
 
@@ -46,11 +46,9 @@ cleanUp() {
 exitUpdate() {
 
             echo
-            echo "*******************************************************"
             echo "-------------------------------------------------------"
             echo ">>>    Operating System Update Has Been Completed   <<<"
             echo "-------------------------------------------------------"
-            echo "*******************************************************"
             echo
         exit
 }
