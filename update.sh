@@ -6,13 +6,13 @@ exit_status() {
         then
                 echo
                 echo "-----------------------------------------"
-                echo "     Command Execting Was Successful.    "
+                echo ">>> Command Execting Was Successful.  <<<" 
                 echo "-----------------------------------------"
                 echo
         else
                 echo
                 echo "-------------------------------------------------------"
-                echo "     [Error] Process Command Executing Has Failed!     "
+                echo ">>>  [Error] Process Command Executing Has Failed!  <<<"
                 echo "-------------------------------------------------------"
                 echo
 
@@ -48,7 +48,7 @@ exitUpdate() {
             echo
             echo "*******************************************************"
             echo "-------------------------------------------------------"
-            echo "-   The Operating System Update Has Been Completed.   -"
+            echo ">>>    Operating System Update Has Been Completed   <<<"
             echo "-------------------------------------------------------"
             echo "*******************************************************"
             echo
