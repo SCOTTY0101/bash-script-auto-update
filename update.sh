@@ -53,6 +53,7 @@ exitUpdate() {
         exit
 }
 
+#calls the functions
 start
 upgrade
 cleanUp
