@@ -29,3 +29,4 @@ sudo ./update.sh    :Enter your sudo password and the script should run without 
 
 mkdir ~/bin   :Moves the script to your home directory.
 
+Execute shell command with   ./<yourFileNameHere>
