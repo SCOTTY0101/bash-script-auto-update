@@ -6,7 +6,7 @@ exit_status() {
         then
                 echo
                 echo "-----------------------------------------"
-                echo ">>> Command Execting Was Successful.  <<<" 
+                echo ">>>  Command Execting Was Successful  <<<" 
                 echo "-----------------------------------------"
                 echo
         else
@@ -18,8 +18,8 @@ exit_status() {
 
         read -p "The last command has exited with an error. Exit script? (yes/no)" answer
                 if [ "$answer" == "yes" ]
-                then
-                    exit 1
+                    then
+                        exit 1
                 fi 
     fi 
 }
@@ -47,7 +47,7 @@ exitUpdate() {
 
             echo
             echo "-------------------------------------------------------"
-            echo ">>>    Operating System Update Has Been Completed   <<<"
+            echo ">>>>   Operating System Update Has Been Completed  <<<<"
             echo "-------------------------------------------------------"
             echo
         exit
