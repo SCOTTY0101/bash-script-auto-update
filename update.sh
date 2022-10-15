@@ -6,29 +6,27 @@ exit_status() {
         then
                 echo
                 echo "-----------------------------------------"
-                echo "*    Command Execution Was Successful    *"
+                echo "*    Command Execting Was Successful    *"
                 echo "-----------------------------------------"
                 echo
         else
                 echo
                 echo "-------------------------------------------------------"
-                echo "     [Error] Process Command Execution Has Failed!     "
+                echo "     [Error] Process Command Executing Has Failed!     "
                 echo "-------------------------------------------------------"
                 echo
 
         read -p "The last command has exited with an error. Exit script? (yes/no)" answer
                 if [ "$answer" == "yes" ]
-                then
-                    exit 1
+                    then
+                        exit 1
                 fi 
     fi 
 }
 
 start() {
             echo
-            echo "********************************************"
-            echo "___--- Upgrading The Operating System.---___"
-            echo "********************************************"
+            echo "***>>> Upgrading The Operating System <<<***"
             echo
 }
 
@@ -48,15 +46,14 @@ cleanUp() {
 exitUpdate() {
 
             echo
-            echo "*******************************************************"
             echo "-------------------------------------------------------"
-            echo "-   The Operating System Update Has Been Completed.   -"
+            echo ">>>>   Operating System Update Has Been Completed  <<<<"
             echo "-------------------------------------------------------"
-            echo "*******************************************************"
             echo
         exit
 }
 
+#calls the functions
 start
 upgrade
 cleanUp

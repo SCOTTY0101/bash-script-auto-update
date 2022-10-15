@@ -6,7 +6,7 @@ Must have a basic understanding of working with the linux terminal. Try and foll
 
 
 
-Use nano or vim for text editor (nano is more user friendly then vim. Recommend to download nano or vim cheatsheet).
+Use nano or vim for text editor (nano is more user friendly than vim. Recommend to download nano or vim cheatsheet).
 
 Open up the terminal and enter the following....
 
@@ -29,3 +29,4 @@ sudo ./update.sh    :Enter your sudo password and the script should run without 
 
 mkdir ~/bin   :Moves the script to your home directory.
 
+Execute shell command with   ./<yourFileNameHere>
