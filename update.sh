@@ -6,13 +6,13 @@ exit_status() {
         then
                 echo
                 echo "-----------------------------------------"
-                echo "*    Command Execting Was Successful    *"
+                echo "*    Command Execution Was Successful.   *"
                 echo "-----------------------------------------"
                 echo
         else
                 echo
                 echo "-------------------------------------------------------"
-                echo "     [Error] Process Command Executing Has Failed!     "
+                echo "     [Error] Process Command Execution Has Failed!     "
                 echo "-------------------------------------------------------"
                 echo
 
@@ -26,7 +26,9 @@ exit_status() {
 
 start() {
             echo
+            echo "--------------------------------------------"
             echo "***>>> Upgrading The Operating System <<<***"
+            echo "--------------------------------------------"
             echo
 }
 
